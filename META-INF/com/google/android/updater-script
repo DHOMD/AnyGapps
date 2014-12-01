@@ -6,8 +6,8 @@ ui_print("*                      GAPPs Current         *");
 ui_print("*                                            *");
 ui_print("**********************************************");
 
-ui_print(“With AnyGapps Installer");
-ui_print("By Nuclearmistake");
+ui_print("Featuring AnyGapps Installer");
+ui_print("           By Nuclearmistake");
 
 ui_print(" ");
 ui_print("Tinkering");
@@ -43,7 +43,6 @@ set_metadata_recursive("/system/framework", "uid", 0, "gid", 0, "dmode", 0755, "
 set_metadata_recursive("/system/lib", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 set_metadata_recursive("/system/usr/srec/en-US", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
 set_metadata_recursive("/system/vendor/pittpatt", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
-
 
 ui_print(" ");
 ui_print("Mission Complete");
